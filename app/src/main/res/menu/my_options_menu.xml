@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/colorPrimaryDark"
+    >
+    <item android:id="@+id/forms"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="Forms" />
+    <item android:id="@+id/hmc"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="HMC" />
+    <item android:id="@+id/map"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="Maps" />
+    <item android:id="@+id/bus"
+        android:icon="@drawable/ic_directions_bus_black_24dp"
+        android:title="Bus Timings" />
+    <item android:id="@+id/menus"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="Menus" />
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="About" />
+</menu>

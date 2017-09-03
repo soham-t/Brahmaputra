@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.hostel.soham.brahmaputra.About">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo1"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brahmaputra Hostel, IIT Guwahati"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/td1"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/td2"
+        android:layout_below="@+id/td1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/td2"
+        android:id="@+id/tableab1"
+        android:stretchColumns="*">
+        <TableRow>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fb"
+                android:id="@+id/fb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/you"
+                android:id="@+id/you"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:padding="3dip"
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gu"
+                android:id="@+id/gu"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:padding="3dip"
+                android:background="@android:color/transparent"/>
+        </TableRow>
+    </TableLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/feed"
+        android:id="@+id/feed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tableab1"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By\nSoham Talukder"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/soham"
+        android:textAlignment="center"
+        android:layout_below="@+id/feed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dubey1"
+        android:layout_below="@+id/soham"
+        android:text="Other Contributors\nVinaykumar Dubey"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
+</ScrollView>

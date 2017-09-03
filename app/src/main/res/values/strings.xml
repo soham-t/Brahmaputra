@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Brahmaputra</string>
+    <string name="open"> Open</string>
+    <string name="close"> Close</string>
+    <string name="forms"> Forms</string>
+    <string name="hmc"> HMC</string>
+    <string name="maps"> Maps</string>
+    <string name="menus"> Menus</string>
+    <string name="bus"> Bus Timings</string>
+    <string name="about"> About</string>
+    <string-array name="blood_array">
+        <item>A +ve</item>
+        <item>A -ve</item>
+        <item>B +ve</item>
+        <item>B -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+        <item>O +ve</item>
+        <item>O -ve</item>
+    </string-array>
+    <string name="Intro">\nHousing nearly thousand students, the hostel to its might is named aptly as Brahmaputra. The hostel began to function from academic year 2011-2012.\n\nIt is boys hostel and boarders in the hostel are from various streams mainly pursuing their Ph.D, M.Tech, M.Sc, B.Tech.It is a three floored building with spacious rooms and all other facilities incorporated. The hostel is a centre for various activities.</string>
+</resources>

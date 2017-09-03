@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.hostel.soham.brahmaputra">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="my.hostel.soham.brahmaputra.SplashScreen" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.MainActivity"
+            android:label="@string/app_name">
+                    </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Forms"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Canteen"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Menus" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Menus" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.About"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Menus"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Mess"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Menus" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Menus" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Live"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Menus" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Menus" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Juice"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Menus" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Menus" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Hmc"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Bus"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Register"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Forms" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Forms" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Suggestion"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Forms" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Forms" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Help"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Forms" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Forms" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Comp"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Forms" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Forms" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Maps"
+            android:parentActivityName="my.hostel.soham.brahmaputra.MainActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.MainActivity" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Floorf"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Maps" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Maps" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Floorg"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Maps" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Maps" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Floors"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Maps" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Maps" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Floort"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Maps" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Maps" />
+        </activity>
+        <activity android:name="my.hostel.soham.brahmaputra.Campus"
+            android:parentActivityName="my.hostel.soham.brahmaputra.Maps" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.hostel.soham.brahmaputra.Maps" />
+        </activity>
+    </application>
+
+</manifest>

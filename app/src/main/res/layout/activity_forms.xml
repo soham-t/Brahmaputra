@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.hostel.soham.brahmaputra.Forms">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/register"
+        android:id="@+id/Registerimg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sugg"
+        android:id="@+id/Suggestimg"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Registerimg"
+        android:layout_alignLeft="@+id/Registerimg"
+        android:layout_alignStart="@+id/Registerimg" />
+    <!--<ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maintainence"
+        android:layout_below="@id/Suggestimg"
+        android:layout_alignLeft="@id/Suggestimg"
+        android:layout_alignStart="@id/Suggestimg"
+        android:id="@+id/Maintainimg"/>-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help"
+        android:id="@+id/Helpimg"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Compimg"
+        android:layout_alignLeft="@+id/Compimg"
+        android:layout_alignStart="@+id/Compimg" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comp"
+        android:id="@+id/Compimg"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Suggestimg"
+        android:layout_alignLeft="@+id/Suggestimg"
+        android:layout_alignStart="@+id/Suggestimg" />
+    </RelativeLayout>
+</ScrollView>
